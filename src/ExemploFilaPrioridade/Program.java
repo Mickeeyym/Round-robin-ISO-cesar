@@ -17,7 +17,7 @@ public class Program {
 		
 		while (!filaPrioridade.isEmpty()) {
 			
-			System.out.println("Removendo " + filaPrioridade.poll());
+			System.out.println("Removendo: " + filaPrioridade.poll());
 		}
 
 	}
